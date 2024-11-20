@@ -9,6 +9,7 @@ namespace Movies.Controllers
     [ApiController]
     public class CategoryController : ControllerBase
     {
+    /////
         private readonly ICategoryRepo _Repo;
 
         public CategoryController(ICategoryRepo repo)
